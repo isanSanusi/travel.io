@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* Container input start */
+.container_input {
+  margin: 2rem auto;
+  background-color: #eaeaea;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  width: 90%;
+}
+
+.container_input form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  width: 10rem;
+  font-size: 1rem;
+  border: none;
+  border-left: 1px solid black;
+  padding: 5px;
+  background-color: transparent;
+}
+
+input[id="from"],
+input[id="to"] {
+  width: 22.3rem;
+}
+
+label {
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+  border-left: 1px solid black;
+}
+
+.input_groups {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: end;
+  gap: 20px;
+}
+
+.input_group_0 {
+  display: flex;
+}
+
+.input_group {
+  display: block;
+  width: 100%;
+  margin-top: 0.5rem;
+  border: 1.5px solid black;
+  border-radius: 5px;
+}
+
+button {
+  background-color: orange;
+  padding: 8px 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: orangered;
+  color: white;
+}
+/* Container input end */
+
+.dropdown {
+  position: absolute;
+  display: none;
+  z-index: 2;
+  overflow: hidden;
+  background-color: white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0px 3px 16px 1px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown ul li {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.dropdown ul li:hover {
+  background-color: #eaeaea;
+}
+
+.dropdown.dropdown_sheat {
+  width: 70px;
+  right: 322px;
+}
+
+.dropdown.dropdown_from,
+.dropdown.dropdown_to {
+  width: 290px;
+}
+
+.dropdown.dropdown_from {
+  top: 120px;
+  left: 110px;
+}
+
+.dropdown.dropdown_to {
+  top: 120px;
+  right: 140px;
+}

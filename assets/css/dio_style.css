@@ -1,0 +1,87 @@
+body,
+html {
+  height: auto;
+  font-family: arial, verdana, sans-serif;
+  color: rgb(109, 108, 108);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("../images/bghome.jpg");
+
+  /* Control the height of the image */
+  min-height: 729px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.welcome {
+  text-align: right;
+  color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+  font-size: 50px;
+}
+.bg-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.bg-text2 {
+  background-color: white;
+  color: rgb(71, 104, 138);
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.titleregist {
+  text-align: center;
+  font-size: 20px;
+}
+table {
+  width: 100%;
+}
+.footer {
+  height: 320px;
+  background-color: rgb(55, 55, 55);
+}
+.textfooter {
+  color: white;
+  text-align: center;
+  padding: 100px;
+  margin: 90px;
+}
+.success {
+  border-color: #04aa6d;
+  color: green;
+}
+.danger {
+  border-color: #f44336;
+  color: red;
+}

@@ -1,0 +1,43 @@
+.slider {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+.nav {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.left-nav {
+  left: 10px;
+}
+
+.right-nav {
+  right: 10px;
+}

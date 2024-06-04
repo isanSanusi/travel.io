@@ -1,0 +1,82 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 10px 10px 5px lightgrey;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 13px;
+}
+
+th{
+    background-color: rgb(71, 104, 138);
+    color: white;
+    text-align: center;
+}
+
+.btnn {
+background-color: #04AA6D;
+border: none;
+color: white;
+padding: 10px 14px;
+font-size: 10px;
+cursor: pointer;
+border-radius: 10px;
+}
+
+/* Darker background on mouse-over */
+.btnn:hover {
+background-color: #46a049;
+}
+.bt {
+background-color: DodgerBlue;
+border: none;
+color: white;
+padding: 10px 14px;
+width: 180px;
+font-size: 15px;
+cursor: pointer;
+border-radius: 10px;
+text-decoration: none;
+text-align: center;
+}
+
+/* Darker background on mouse-over */
+.bt:hover {
+background-color: RoyalBlue;
+}
+
+.edit {
+    background-color: yellow;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    font-size: 10px;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+    }
+    
+    /* Darker background on mouse-over */
+.edit:hover {
+    background-color: yellowgreen;
+    color: white;
+}
+.hapus {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+    
+    /* Darker background on mouse-over */
+.hapus:hover {
+    background-color: darkred;
+}
